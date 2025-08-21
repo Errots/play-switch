@@ -23,7 +23,7 @@ jobs:
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: play-switch-build
+          name: play-switch-build2
           path: |
             build/Source/ui_switch/Play_Switch.elf
             build/Source/ui_switch/Play_Switch.nro
